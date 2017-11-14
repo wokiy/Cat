@@ -11,3 +11,43 @@
     font-family: 微软雅黑;
     font-size: 16px;
 }
+.rowChangHeight{
+    margin-top: -18px;
+}
+.rowChangHeight2{
+    margin-top: 90px;
+}
+.breadcrumb{
+    background: #fff !important;
+}
+/*轮播导航部分------------------------------------------------------------------------------*/
+.parent{
+    position: relative;
+}
+.nav-left {
+    width: 312px;
+    height: 343px;
+    /*background: rgba(0, 0, 0,0.4);*/
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+.nav-ul{
+    margin: 23px 30px 0 22px;
+}
+.nav-ul ul, p{
+    color: #fff;
+    list-style: none;
+}
+.nav-ul p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-ul ul li {
+    float: left;
+    margin-left: 9px;
+    font-family: 宋体;
+    font-size: 16px;
+}
+/*-------------------------------------------*/
