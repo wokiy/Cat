@@ -59,6 +59,73 @@
 }
 .changMarginLeft{
     margin-left: 243px !important;
+}.changWidth{
+     width: 1230px !important;
+ }
+/*-------------------------------------------*/
+/*======================第二幕=======*/
+.se2_changMarin{
+    margin-top: 54px;
+}
+.se_nav-ul{
+    list-style: none;
+
+}
+.ul-default{
+    /*border-bottom: 1px solid silver ;*/
+    overflow: hidden;
+}
+.se_nav-ul li{
+    float: left;
+    width: 150px;
+    border-bottom: 2px solid silver;
+}
+.se_nav-ul li a{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    font-family: 华文楷体;
+    font-size: 19px;
+    text-decoration: none;
+    color: #0f0f0f;
+
+}
+.active_bottom{
+    border-color: green !important;
+}
+.se2_row2_maring-top_chang{
+    margin-top: 31px;
+}
+.span_parent{
+    position: relative;
+}
+.span_posi{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+}
+.se2_row_row_changMar_top{
+    margin-top: 18px !important;
+}
+.changMarginLeft1{
+    margin-left: 7px !important;
+}
+#row_col_md_8{
+    margin-top: 76px;
+}
+.img_margin_Top{
+    margin-top: 18px;
+    margin-left: 18px;
+}
+#img_margin_left{
+    margin-left: 18px;
+}
+/*======================================*/
+/*--------------------第三内容--------------*/
+#se3_contaniter{
+    margin-top: 40px;
 }
 
-/*-------------------------------------------*/
+/*————————————————————————————————————————————*/
+
