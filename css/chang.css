@@ -126,6 +126,103 @@
 #se3_contaniter{
     margin-top: 40px;
 }
-
 /*————————————————————————————————————————————*/
+/*———————————————————第三内容区—————————————————————————*/
+#small_Font_Size{
+    font-size: 40%;
+}
+#back_color{
+    background: rgb(242,242,242);
+}
+/*————————————————————————————————————————————*/
+/*———————————————————第四内容区————————————————————*/
+#small_Font_Size1{
+    font-size: 40%;
+}
+.p_set{
+    line-height: 24px;
+    color: #0f0f0f;
+    font-size: 10px;
+    margin:18px 10px 0 10px ;
+}
+.changSpan_marginleft{
+    margin-left: 23px;
+}
+.span_marginTop{
+    margin-top: 17px;
+}
+#chang_row_margin_bottom{
+    margin-bottom: 34px;
+}
+.se4_changMarin{
+    margin-top: 30px;
+}
+/*————————————————————————————————————————————*/
+/*——————————————————第五内容——————————————————————————*/
+#small_Font_Size2{
+    font-size: 40%;
+}
+.parent_experience{
+    position: relative;
+}
+#experience{
+    position: absolute;
+    top: 0;
+    right: -46px;
+    height: 100%;
+    width:50%;
+    background:rgba(0,0,0,0.4);
+}
+.content{
+    margin: 40px 40px 0 40px;
+    line-height: 35px;
+}
+.content_a{
+    margin: 134px 0 0 40px;
+}
+.chang_margin_top{
+    margin-top: 39px;
+}
+/*————————————————————last————————————————————————*/
+.back_Color{
+    background: #65C973;
+    height: 314px;
+}
+.font-chang{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.font-chang p{
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.ul_1 {
+    list-style: none;
+    margin-top: 25px;
+    line-height: 25px;
+}
+.ul_2{
+    list-style:none;
+    margin-top: 25px;
+    line-height: 25px;
+}
+.erweima_changMargin{
+    margin: 40px 0 0 60px;
+}
+.back_Color1{
+    background: #F2F2F2;
+}
+.chang_margin_top1{
+    margin-top: 36px;
+}
+#hr_Color{
+    border-top:2px solid #3dbd59;
+}
+#hr_Color1{
+    margin-left: 32px;
+    border-top:2px solid #3dbd59;
+}
+/*——————————————————————————————————————————————*/
 
