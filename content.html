@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>content</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <!--第一步引入boostrap资源-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/chang.css">
+</head>
+<body>
+<!--导航条实现-->
+<nav class="navbar navbar-default navbar-fixed-top changeNav_H">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img class="changImg_mar" alt="logo" src="images/logo.png"/>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav font-size">
+                <li class=""><a href="#">首页</a></li>
+                <li><a href="#">全球签证</a></li>
+                <li><a href="#">旅游指南</a></li>
+                <li><a href="#">旅游商品</a></li>
+            </ul>
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-user"></i> &nbsp; 登陆</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal2"><i class="glyphicon glyphicon-pencil"></i>&nbsp;注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</nav>
+<!--注册拟态框-->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel2">用户注册</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputEmail4" placeholder="用户名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">邮箱</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputPassword5" placeholder="邮箱">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">验证码</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword6" placeholder="验证码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <img src="images/yanzhengma.png" alt="验证码">
+                            <span><a href="#" class="btn btn-default">点击刷新</a></span>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary">注册</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 登陆拟态框 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">用户登陆</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputEmail3" placeholder="用户名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> 记住我
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary">登陆</button>
+            </div>
+        </div>
+    </div>
+</div>
+<section>
+    <div class="container changWidth">
+        <div class="row rowChangHeight2">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">旅游分光</a></li>
+                    <li><a href="#" class="active">美食天下</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+<!--头部-->
+<!--住内容区-->
+            <section>
+                <div class="container">
+                    <div class="row">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2>全球飞机美食盘点 我竟然可耻的流口水了</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="img_size_controller">
+                                                <img class="img-rounded" src="images/food1.jpg" alt="美食">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="content_jianjie">
+                                                        <span>
+                                                            提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了只要用心，人人都可以是食... 阅读全文发表于 天下美食提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了，只要用心，人人都可以是食... 阅读全文
+                                                            发表于 天下美食
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <i class="pull-right change_i_margin_right">2017-11-16</i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                                <hr>
+                                <div class="row">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2>全球飞机美食盘点 我竟然可耻的流口水了</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="img_size_controller">
+                                            <img class="img-rounded" src="images/food2.jpg" alt="美食">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="content_jianjie">
+                                                        <span>
+                                                            提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了只要用心，人人都可以是食... 阅读全文发表于 天下美食提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了，只要用心，人人都可以是食... 阅读全文
+                                                            发表于 天下美食
+                                                        </span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <i class="pull-right change_i_margin_right">2017-11-16</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2>全球飞机美食盘点 我竟然可耻的流口水了</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="img_size_controller">
+                                                <img class="img-rounded" src="images/food1.jpg" alt="美食">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="content_jianjie">
+                                                        <span>
+                                                            提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了只要用心，人人都可以是食... 阅读全文发表于 天下美食提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了，只要用心，人人都可以是食... 阅读全文
+                                                            发表于 天下美食
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <i class="pull-right change_i_margin_right">2017-11-16</i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2>全球飞机美食盘点 我竟然可耻的流口水了</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="img_size_controller">
+                                                <img class="img-rounded" src="images/food1.jpg" alt="美食">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="content_jianjie">
+                                                        <span>
+                                                            提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了只要用心，人人都可以是食... 阅读全文发表于 天下美食提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了，只要用心，人人都可以是食... 阅读全文
+                                                            发表于 天下美食
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <i class="pull-right change_i_margin_right">2017-11-16</i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2>全球飞机美食盘点 我竟然可耻的流口水了</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="img_size_controller">
+                                                <img class="img-rounded" src="images/food1.jpg" alt="美食">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="content_jianjie">
+                                                        <span>
+                                                            提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了只要用心，人人都可以是食... 阅读全文发表于 天下美食提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了，只要用心，人人都可以是食... 阅读全文
+                                                            发表于 天下美食
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <i class="pull-right change_i_margin_right">2017-11-16</i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2>全球飞机美食盘点 我竟然可耻的流口水了</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="img_size_controller">
+                                                <img class="img-rounded" src="images/food1.jpg" alt="美食">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="content_jianjie">
+                                                        <span>
+                                                            提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了只要用心，人人都可以是食... 阅读全文发表于 天下美食提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了，只要用心，人人都可以是食... 阅读全文
+                                                            发表于 天下美食
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <i class="pull-right change_i_margin_right">2017-11-16</i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2>全球飞机美食盘点 我竟然可耻的流口水了</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="img_size_controller">
+                                                <img class="img-rounded" src="images/food1.jpg" alt="美食">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="content_jianjie">
+                                                        <span>
+                                                            提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了只要用心，人人都可以是食... 阅读全文发表于 天下美食提到飞机餐，你是什么感觉？食之无味、弃之可惜的鸡肋吗？或者干脆不屑一顾？ 其实食神说了，只要用心，人人都可以是食... 阅读全文
+                                                            发表于 天下美食
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <i class="pull-right change_i_margin_right">2017-11-16</i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <nav aria-label="Page navigation" class="pull-right">
+                                    <ul class="pagination">
+                                        <li>
+                                            <a href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li>
+                                            <a href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-md-4">
+                                <aside>
+                                        <div class="new_list pull-right">
+                                            <h4><i class="glyphicon glyphicon-list"></i> 最新消息</h4>
+                                            <hr>
+                                            <ul>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                                <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            </ul>
+                                        </div>
+
+                                    <div class="new_list pull-right">
+                                        <h4><i class="glyphicon glyphicon-list"></i> 阅读排行榜</h4>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                            <li><a href="#">新西兰酒庄大摆宴席，游客可以参加</a></li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+
+                        </div>
+                </div>
+
+            </section>
+<!--住内容区-->
+<!--页脚-->
+<section class="back_Color se2_changMarin">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row font-chang chang_margin_top">
+            <div class="col-md-3">
+                <h4> <i class="glyphicon glyphicon-plane"></i> 专业的美食旅游博主</h4>
+                <p>14年开始关注，一位「不害臊妙龄女土匪」，摄影师、撰稿人。去过50几个国家，曾在莫桑比克、瑞典和格鲁吉亚分别居住半年，陆路横穿中亚回国。起初是搜摩洛哥搜到她，后来看了她最有名的那篇阿富汗穿越记</p>
+            </div>
+            <div class="col-md-3">
+                <h4> <i class="glyphicon glyphicon-road"></i> 旅游建议</h4>
+                <ul class="ul_1">
+                    <li>日本：札幌</li>
+                    <li>美国：塞班岛</li>
+                    <li>泰国：普吉岛</li>
+                    <li>德国：慕尼黑</li>
+                    <li>韩国：釜山</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4> <i class="glyphicon glyphicon-earphone">联系方式</i></h4>
+                <ul class="ul_2">
+                    <li><span>电话</span>: <i>13838385438</i></li>
+                    <li><span>邮箱</span>: <i>13838385438</i></li>
+                    <li><span>传真</span>: <i>13838385438</i></li>
+                    <li><span>地址</span>: <i>13838385438</i></li>
+                    <li><span>邮编</span>: <i>13838385438</i></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <img  src="images/1510803890.png" alt="二维码" class="img-thumbnail erweima_changMargin">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="back_Color1">
+    <div class="container">
+        <div class="row chang_margin_top1">
+            <div class="col-md-6">
+                <div class="pull-left">
+                    <p style="color: #0f0f0f">© copyright 2017 韶关学院. All rights reserved. 技术支持：中国.广东.韶关.韶关学院 丁香苑C416 Jackdaw工作室 邮编:512005</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pull-right">
+                    <img src="images/footer1.png" alt="">
+                    <img src="images/footer2.png" alt="">
+                    <img src="images/footer3.png" alt="">
+                    <img src="images/footer4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--内容区七-->
+</body>
+<!--工具包引入完毕-->
+<script src="js/jquery-1.10.1.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>
