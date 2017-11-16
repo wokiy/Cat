@@ -41,6 +41,11 @@
     color: #fff;
     list-style: none;
 }
+.ul_li_a li a{
+    color: white;
+    text-decoration: none;
+}
+
 .nav-ul p{
     font-size: 18px;
     font-weight: bold;
@@ -250,4 +255,36 @@
 }
 
 /*——————————————————————————————————————————————*/
+/*————————————————————detail——————————————————————————*/
+.detail_content p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.chang_Margin1{
+    margin-top: 90px;
+}
+.detail_ul li a{
+    line-height: 35px;
+    text-decoration: none;
+}
+.detail_ul li i{
+    margin-right: 40px;
+}
+.detail_comm p{
+    color: #000;
+}
+.comm_margin_top{
+    margin-top: 10px;
+}
+/*——————————————————————————————————————————————*/
+/*——————————————————content修改————————————————————————————*/
+.content_a_default_style a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+/*——————————————————————————————————————————————*/
+
+
 
