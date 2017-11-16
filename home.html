@@ -27,13 +27,105 @@
                     </ul>
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> &nbsp; 登陆</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-pencil"></i>&nbsp;注册</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-user"></i> &nbsp; 登陆</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal2"><i class="glyphicon glyphicon-pencil"></i>&nbsp;注册</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+
     </nav>
+    <!--注册拟态框-->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">用户注册</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                            <div class="col-sm-10">
+                                <input type="name" class="form-control" id="inputEmail4" placeholder="用户名">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="密码">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">邮箱</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputPassword5" placeholder="邮箱">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">验证码</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword6" placeholder="验证码">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <img src="images/yanzhengma.png" alt="验证码">
+                                <span><a href="#" class="btn btn-default">点击刷新</a></span>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 登陆拟态框 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">用户登陆</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                            <div class="col-sm-10">
+                                <input type="name" class="form-control" id="inputEmail3" placeholder="用户名">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> 记住我
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">登陆</button>
+                </div>
+            </div>
+        </div>
+    </div>
 <!--轮播图-->
     <section>
         <div class="container changWidth">
@@ -365,7 +457,6 @@
             </div>
     </section>
 <!--内容区二-->
-
 <!--内容区三-->
     <section id="back_color" class="se2_changMarin">
             <div class="container">
