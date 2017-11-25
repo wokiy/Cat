@@ -14,27 +14,30 @@
     <nav class="navbar navbar-default navbar-fixed-top changeNav_H">
         <div class="container">
             <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="home.html">
                     <img class="changImg_mar" alt="logo" src="images/logo.png"/>
                 </a>
             </div>
-            <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav font-size">
-                        <li class=""><a href="#">首页</a></li>
+            <div class="navbar-collapse collapse" id="backgroun_color">
+                    <ul class="nav navbar-nav font-size" style="position: relative;">
+                        <li class=""><a href="home.html">首页</a></li>
                         <li><a href="#">全球签证</a></li>
-                        <li><a href="#">旅游指南</a></li>
+                        <li><a href="content.html">旅游指南</a></li>
                         <li><a href="#">旅游商品</a></li>
                     </ul>
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-user"></i> &nbsp; 登陆</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#myModal2"><i class="glyphicon glyphicon-pencil"></i>&nbsp;注册</a></li>
-                    </ul>
-                </div>
+                <ul class="nav navbar-nav font-size chang_float" style="float: right;">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-user"></i> &nbsp; 登陆</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal2"><i class="glyphicon glyphicon-pencil"></i>&nbsp;注册</a></li>
+                </ul>
             </div>
         </div>
-
     </nav>
+
     <!--注册拟态框-->
     <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -128,7 +131,7 @@
     </div>
 <!--轮播图-->
     <section>
-        <div class="container changWidth">
+        <div class="container">
             <div class="row rowChangHeight2">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
@@ -139,11 +142,11 @@
         </div>
     </section>
     <section>
-        <div class="container changWidth">
+        <div class="container">
             <div class="row rowChangHeight">
-                <div class="col-lg-12 parent">
+                <div class="col-lg-12">
                             <!--轮播-->
-                    <div id="carousel-example-generic" class="carousel slide ChangHeight" data-ride="carousel">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -151,26 +154,26 @@
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         </ol>
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner changHeight" role="listbox">
+                        <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="images/1.png" alt="">
+                                <img src="images/1.png" alt="" class="img-responsive center-block">
                                 <div class="carousel-caption">
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="images/1.png" alt="">
+                                <img src="images/1.png" alt="" class="img-responsive center-block">
                                 <div class="carousel-caption">
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="images/1.png" alt="">
+                                <img src="images/1.png" alt="" class="img-responsive center-block">
                                 <div class="carousel-caption">
                                 </div>
                             </div>
                         </div>
                         <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left changMarginLeft" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
@@ -178,39 +181,6 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                            <!--左边导航-->
-                            <div class="nav-left">
-                                    <div class="nav-ul">
-                                        <p>旅游指南</p>
-                                        <ul class="ul_li_a">
-                                            <li><a href="content.html">美食天下</a></li>
-                                            <li><a href="#">自然风光</a></li>
-                                            <li><a href="#">攻略旅游</a></li>
-                                        </ul>
-                                        <br>
-                                        <hr>
-                                    </div>
-                                <div class="nav-ul">
-                                    <p>旅游指南</p>
-                                    <ul class="ul_li_a">
-                                        <li><a href="content.html">美食天下</a></li>
-                                        <li><a href="#">自然风光</a></li>
-                                        <li><a href="#">攻略旅游</a></li>
-                                    </ul>
-                                    <br>
-                                    <hr>
-                                </div>
-                                <div class="nav-ul">
-                                    <p>旅游指南</p>
-                                    <ul class="ul_li_a">
-                                        <li><a href="content.html">美食天下</a></li>
-                                        <li><a href="#">自然风光</a></li>
-                                        <li><a href="#">攻略旅游</a></li>
-                                    </ul>
-                                    <br>
-                                    <hr>
-                                </div>
-                            </div>
                 </div>
             </div>
         </div>
@@ -244,17 +214,17 @@
                         <div id="row_col_md_8"  class="row">
                                 <div class="col-md-8">
                                         <div class="row">
-                                                <div class="col-md-12 span_parent">
-                                                    <img src="images/12.png" alt="show图片">
+                                                <div class="col-md-12 span_parent1">
+                                                    <img src="images/12.png" class="img-responsive center-block" alt="show图片">
                                                     <div class="span_posi">
                                                         <span class="label label-default">肯尼亚</span>
                                                         <span class="label label-default">旅游推荐</span>
                                                     </div>
                                                 </div>
                                         </div>
-                                        <div class="row se2_row_row_changMar_top">
+                                        <div class="row ">
                                             <div class="col-md-5 span_parent">
-                                                <img src="images/13.png" alt="图片介绍非洲">
+                                                <img src="images/13.png" class="img-responsive center-block" alt="图片介绍非洲">
                                                 <div class="span_posi">
                                                         <span class="label label-default">肯尼亚</span>
                                                         <span class="label label-default">套餐一</span>
@@ -263,7 +233,7 @@
                                             <div class="col-md-1"></div>
 
                                             <div class="col-md-5 span_parent">
-                                                <img class="changMarginLeft1" src="images/14.png" alt="图片介绍非洲">
+                                                <img class="img-responsive center-block"src="images/14.png" alt="图片介绍非洲">
                                                 <div class="span_posi">
                                                         <span class="label label-default">肯尼亚</span>
                                                         <span class="label label-default">套餐一</span>
@@ -274,7 +244,7 @@
                                 <div class="col-md-4">
                                         <div  class="row">
                                             <div class="col-md-12">
-                                                    <img id="img_margin_left" src="images/15.png" alt="旅游介绍">
+                                                    <img class="img-responsive center-block"  src="images/15.png" alt="旅游介绍">
                                                     <div class="span_posi">
                                                         <span class="label label-default">肯尼亚</span>
                                                         <span class="label label-default">套餐一</span>
@@ -282,8 +252,8 @@
                                                 </div>
                                         </div>
                                     <div class="row">
-                                        <div class="col-md-12">
-                                            <img class="img_margin_Top" src="images/17.png" alt="旅游介绍">
+                                        <div class="col-md-12 img_margin_tp">
+                                            <img class="img-responsive center-block" src="images/17.png" alt="旅游介绍">
                                             <div class="span_posi">
                                                 <span class="label label-default">肯尼亚</span>
                                                 <span class="label label-default">套餐一</span>
@@ -291,8 +261,8 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-12">
-                                            <img class="img_margin_Top" src="images/166.png" alt="旅游介绍">
+                                        <div class="col-md-12 img_margin_tp">
+                                            <img class="img-responsive center-block" src="images/166.png" alt="旅游介绍">
                                             <div class="span_posi">
                                                 <span class="label label-default">肯尼亚</span>
                                                 <span class="label label-default">套餐一</span>
@@ -473,7 +443,7 @@
                 <div class="row">
                         <div class="col-md-3">
                             <div class="col-md-12 span_parent">
-                                <img src="images/yindu.png" alt="show图片">
+                                <img src="images/yindu.png" class="img-responsive center-block" alt="show图片">
                                 <div class="span_posi">
                                     <span class="label label-default">印度</span>
                                     <span class="label label-default">旅游推荐</span>
@@ -482,7 +452,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="col-md-12 span_parent">
-                                <img src="images/taiwan.png" alt="show图片">
+                                <img src="images/taiwan.png" class="img-responsive center-block" alt="show图片">
                                 <div class="span_posi">
                                     <span class="label label-default">印度</span>
                                     <span class="label label-default">旅游推荐</span>
@@ -492,7 +462,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="col-md-12 span_parent">
-                                <img src="images/yindu.png" alt="show图片">
+                                <img src="images/yindu.png" class="img-responsive center-block" alt="show图片">
                                 <div class="span_posi">
                                     <span class="label label-default">印度</span>
                                     <span class="label label-default">旅游推荐</span>
@@ -501,7 +471,7 @@
                         </div>
                     <div class="col-md-3">
                         <div class="col-md-12 span_parent">
-                            <img src="images/taiwan.png" alt="show图片">
+                            <img src="images/taiwan.png" class="img-responsive center-block" alt="show图片">
                             <div class="span_posi">
                                 <span class="label label-default">印度</span>
                                 <span class="label label-default">旅游推荐</span>
@@ -529,7 +499,7 @@
                      <div class="col-md-6">
                          <div class="row">
                              <div class="col-md-6">
-                                 <img src="images/logo111.png" alt="图片">
+                                 <img src="images/logo111.png" class="img-responsive center-block" alt="图片">
                              </div>
                              <div class="col-md-6">
                                  <h3>德国的美食好吃吗？</h3>
@@ -544,7 +514,7 @@
                      <div class="col-md-6">
                              <div class="row">
                                  <div class="col-md-6">
-                                     <img src="images/logo111.png" alt="图片">
+                                     <img src="images/logo111.png" class="img-responsive center-block" alt="图片">
                                  </div>
                                  <div class="col-md-6">
                                      <h3>德国的美食好吃吗？</h3>
@@ -561,7 +531,7 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="images/logo111.png" alt="图片">
+                                <img src="images/logo111.png" class="img-responsive center-block" alt="图片">
                             </div>
                             <div class="col-md-6">
                                 <h3>德国的美食好吃吗？</h3>
@@ -576,7 +546,7 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="images/logo111.png" alt="图片">
+                                <img src="images/logo111.png" class="img-responsive center-block" alt="图片">
                             </div>
                             <div class="col-md-6">
                                 <h3>德国的美食好吃吗？</h3>
@@ -607,14 +577,9 @@
              </div>
             <div class="row">
                 <div class="col-md-12 parent_experience">
-                    <img src="images/fenxiang.jpg" alt="图片">
+                    <img src="images/fenxiang.jpg" class="img-responsive center-block" alt="图片">
                     <div id="experience">
-                        <div class="content">
-                            <h3>德国的美食好吃吗？</h3>
-                            <p style="color: #0f0f0f;">首先要确认申请人目前所在地在哪里，属于哪个领区的。不同的领区对资产要求会不有所区别。 申请...</p>
-                        </div>
-                        <div class="content_a">
-                            <a class="btn btn-primary" href="#">详情查看</a>
+                            <button class="btn btn-primary chang_weizhi">查看详情</button>
                         </div>
                     </div>
                 </div>
@@ -623,75 +588,72 @@
     </section>
 <!--内容区五-->
 <!--内容区六-->
-    <section class="back_Color se2_changMarin">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5"></div>
-                    <div class="col-md-4">
+    <section class="back_Color se2_changMarin" style="height: 100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-4">
 
-                    </div>
-                    <div class="col-md-3"></div>
                 </div>
-                <div class="row font-chang chang_margin_top">
-                    <div class="col-md-3">
-                        <h4> <i class="glyphicon glyphicon-plane"></i> 专业的美食旅游博主</h4>
-                        <p>14年开始关注，一位「不害臊妙龄女土匪」，摄影师、撰稿人。去过50几个国家，曾在莫桑比克、瑞典和格鲁吉亚分别居住半年，陆路横穿中亚回国。起初是搜摩洛哥搜到她，后来看了她最有名的那篇阿富汗穿越记</p>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row font-chang chang_margin_top">
+                <div class="col-md-3">
+                    <h4> <i class="glyphicon glyphicon-plane"></i> 专业的美食旅游博主</h4>
+                    <p>14年开始关注，一位「不害臊妙龄女土匪」，摄影师、撰稿人。去过50几个国家，曾在莫桑比克、瑞典和格鲁吉亚分别居住半年，陆路横穿中亚回国。起初是搜摩洛哥搜到她，后来看了她最有名的那篇阿富汗穿越记</p>
+                </div>
+                <div class="col-md-3">
+                    <h4> <i class="glyphicon glyphicon-road"></i> 旅游建议</h4>
+                    <ul class="ul_1">
+                        <li>日本：札幌</li>
+                        <li>美国：塞班岛</li>
+                        <li>泰国：普吉岛</li>
+                        <li>德国：慕尼黑</li>
+                        <li>韩国：釜山</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4> <i class="glyphicon glyphicon-earphone">联系方式</i></h4>
+                    <ul class="ul_2">
+                        <li><span>电话</span>: <i>13838385438</i></li>
+                        <li><span>邮箱</span>: <i>13838385438</i></li>
+                        <li><span>传真</span>: <i>13838385438</i></li>
+                        <li><span>地址</span>: <i>13838385438</i></li>
+                        <li><span>邮编</span>: <i>13838385438</i></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <img  src="images/1510803890.png" alt="二维码" class="img-responsive center-block"style="padding-bottom: 21px;"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="back_Color1">
+            <div class="container">
+                <div class="row chang_margin_top1">
+                    <div class="col-md-6">
+                        <div class="pull-left">
+                            <p style="color: #0f0f0f">© copyright 2017 韶关学院. All rights reserved. 技术支持：中国.广东.韶关.韶关学院 丁香苑C416 Jackdaw工作室 邮编:512005</p>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <h4> <i class="glyphicon glyphicon-road"></i> 旅游建议</h4>
-                        <ul class="ul_1">
-                            <li>日本：札幌</li>
-                            <li>美国：塞班岛</li>
-                            <li>泰国：普吉岛</li>
-                            <li>德国：慕尼黑</li>
-                            <li>韩国：釜山</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4> <i class="glyphicon glyphicon-earphone">联系方式</i></h4>
-                        <ul class="ul_2">
-                            <li><span>电话</span>: <i>13838385438</i></li>
-                            <li><span>邮箱</span>: <i>13838385438</i></li>
-                            <li><span>传真</span>: <i>13838385438</i></li>
-                            <li><span>地址</span>: <i>13838385438</i></li>
-                            <li><span>邮编</span>: <i>13838385438</i></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <img  src="images/1510803890.png" alt="二维码" class="img-thumbnail erweima_changMargin">
+                    <div class="col-md-6">
+                        <div class="pull-right">
+                            <img src="images/footer1.png" style="float: left;" class="img-responsive" alt="">
+                            <img src="images/footer2.png" style="float: left;" class="img-responsive" alt="">
+                            <img src="images/footer3.png" style="float: left;"  class="img-responsive" alt="">
+                            <img src="images/footer4.png" style="float: left;" class="img-responsive" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-    </section>
-
-<!--内容区六-->
-<!--内容区七-->
-    <section class="back_Color1">
-            <div class="container">
-                    <div class="row chang_margin_top1">
-                            <div class="col-md-6">
-                                <div class="pull-left">
-                                    <p style="color: #0f0f0f">© copyright 2017 韶关学院. All rights reserved. 技术支持：中国.广东.韶关.韶关学院 丁香苑C416 Jackdaw工作室 邮编:512005</p>
-
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="pull-right">
-                                        <img src="images/footer1.png" alt="">
-                                        <img src="images/footer2.png" alt="">
-                                        <img src="images/footer3.png" alt="">
-                                        <img src="images/footer4.png" alt="">
-                                </div>
-
-                            </div>
-                    </div>
-            </div>
-
-    </section>
-<!--内容区七-->
-
+        </section>
+    </footer>
+    <!--内容区七-->
 </body>
 <!--工具包引入完毕-->
 <script src="js/jquery-1.10.1.js"></script>
 <script src="js/bootstrap.js"></script>
+<script>
+</script>
 </html>

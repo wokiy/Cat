@@ -4,7 +4,6 @@
 }
 .changImg_mar{
     margin-top: -13px;
-    margin-right: 170px;
 }
 
 .font-size{
@@ -13,7 +12,6 @@
 }
 .rowChangHeight{
     margin-top: -18px;
-    height: 342px;
 }
 .rowChangHeight2{
     margin-top: 90px;
@@ -102,7 +100,11 @@
 .se2_row2_maring-top_chang{
     margin-top: 31px;
 }
+.span_parent1{
+    position: relative;
+}
 .span_parent{
+    width: 50%;
     position: relative;
 }
 .span_posi{
@@ -173,7 +175,7 @@
 #experience{
     position: absolute;
     top: 0;
-    right: -46px;
+    right: 15px;
     height: 100%;
     width:50%;
     background:rgba(0,0,0,0.4);
@@ -285,6 +287,47 @@
     color: #0f0f0f;
 }
 /*——————————————————————————————————————————————*/
+.chang_weizhi{
+    margin: 180px 250px ;
+}
+.span_parent img{
+    margin-top: 10px;
+}
+.img_margin_tp{
+    margin-top: 14px;
+}
+@media only  all and (max-width:991px){
+    .chang_weizhi{
+        margin: 50px 60px;
+    }
+    .span_parent{
+        width: 100%;
+    }
+    .span_parent img{
+        margin-top: 0;
+    }
+    .img_margin_tp{
+        margin-top: 0;
+    }
+    #row_col_md_8 img{
+        margin-bottom: 8px;
+        margin-top: 0;
+    }
+    .new_list, pull-right{
+        float: left !important;
+    }
+    .changImg_mar{
+        width: 108% !important;
+    }
+    .chang_float{
+        float: left !important;
+    }
 
+}
+@media only  all and (max-width:760px){
+    #backgroun_color{
+        background: #ffffff;
+    }
+}
 
 
