@@ -296,6 +296,10 @@
 .img_margin_tp{
     margin-top: 14px;
 }
+#lunbo{
+    margin-top: 129px;
+}
+
 @media only  all and (max-width:991px){
     .chang_weizhi{
         margin: 50px 60px;
@@ -322,12 +326,19 @@
     .chang_float{
         float: left !important;
     }
+    #lunbo{
+        width: 100%;
 
+    }
+    .content_jianjie{
+        margin-left: 0px;
+    }
 }
 @media only  all and (max-width:760px){
     #backgroun_color{
         background: #ffffff;
     }
 }
+
 
 
